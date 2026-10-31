@@ -10,41 +10,23 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300..700;1,300..700&family=Sora:wght@300..700&display=swap">
 <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body data-page="Home">
 <div class="page">
-
-  <header class="site-header">
-    <div class="container">
-      <a class="brand" href="index.html">
-        <span class="brand-name">Yarychkivska Lab</span>
-        <i class="brand-rule"></i>
-        <span class="brand-tagline">Laboratory of Cell Behavior</span>
-      </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <nav class="site-nav" id="site-nav">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="research.html">Research</a>
-        <a href="publications.html">Publications</a>
-        <a href="people.html">People</a>
-        <a href="resources.html">Resources</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <div data-site-header></div>
 
   <main>
-    <section class="inverse hero">
+    <section class="inverse on-dark hero">
       <div class="container split">
         <div class="stack" style="gap:24px">
           <h1>Laboratory of Cell Behavior</h1>
           <p class="lead">Our goal is to understand how cells regulate their behavior in health and disease.</p>
           <p class="muted">We focus on some of the most dramatic cell behaviors – cell death, migration, and engulfment (phagocytosis). These behaviors are essential for normal development and tissue homeostasis, and they go awry in many diseases.</p>
-          <div class="links" style="margin-top:8px">
-            <a class="arrow-link on-dark" href="research.html">Explore research</a>
-            <a class="arrow-link on-dark accent" href="contact.html">Join the lab</a>
+          <div class="links">
+            <a class="arrow-link" href="research.html">Explore research</a>
+            <a class="arrow-link accent" href="contact.html">Join the lab</a>
           </div>
         </div>
-        <figure class="figure on-dark">
+        <figure class="figure">
           <div class="figure-frame">
             <video autoplay muted loop playsinline preload="auto" poster="assets/video/poster.png" width="1600" height="1200">
               <source src="assets/video/cell-animation.mp4" type="video/mp4">
@@ -55,14 +37,14 @@
       </div>
     </section>
 
-    <section class="section">
+    <section style="padding:64px 0">
       <div class="container stack" style="gap:32px">
-        <div class="split" style="align-items:end">
+        <div class="split-380" style="align-items:end">
           <div class="section-heading">
             <div class="eyebrow">Approach</div>
             <h2>From a living organism to human disease</h2>
           </div>
-          <p>We study single cells within the physiological context of a living, multicellular organism, and translate our findings to human disease. To do this, we take a multi-system approach that combines work in <em>C. elegans</em>, cultured cells, and human tissues.</p>
+          <p class="body-text">We study single cells within the physiological context of a living, multicellular organism, and translate our findings to human disease. To do this, we take a multi-system approach that combines work in <em>C. elegans</em>, cultured cells, and human tissues.</p>
         </div>
         <div class="inverse approach">
           <div class="approach-item">
@@ -92,28 +74,34 @@
         <div class="eyebrow">Research questions</div>
         <div class="stack">
           <div class="research-item">
-            <span class="research-num">01</span>
-            <h3>Developmental cell death</h3>
-            <p>How is developmental cell death regulated? How is it dysregulated in disease?</p>
+            <span class="numeral">01</span>
+            <div class="body">
+              <h3 class="h3">Developmental cell death</h3>
+              <p>How is developmental cell death regulated? How is it dysregulated in disease?</p>
+            </div>
             <a class="arrow-link" href="research.html#death">Read more</a>
           </div>
           <div class="research-item">
-            <span class="research-num">02</span>
-            <h3>Cell migration</h3>
-            <p>What intrinsic factors regulate single cell migration?</p>
+            <span class="numeral">02</span>
+            <div class="body">
+              <h3 class="h3">Cell migration</h3>
+              <p>What intrinsic factors regulate single cell migration?</p>
+            </div>
             <a class="arrow-link" href="research.html#migration">Read more</a>
           </div>
           <div class="research-item">
-            <span class="research-num">03</span>
-            <h3>Cell engulfment</h3>
-            <p>How do dying and engulfing cells communicate?</p>
+            <span class="numeral">03</span>
+            <div class="body">
+              <h3 class="h3">Cell engulfment</h3>
+              <p>How do dying and engulfing cells communicate?</p>
+            </div>
             <a class="arrow-link" href="research.html#engulfment">Read more</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section sunken">
+    <section class="sunken" style="padding:64px 0">
       <div class="container split">
         <figure class="figure">
           <div class="figure-frame"><img src="assets/doc/image3.png" alt="Feinstein Institutes and Cold Spring Harbor Laboratory campuses"></div>
@@ -124,9 +112,9 @@
             <div class="eyebrow">Affiliation</div>
             <h2>CSHL–Northwell Health</h2>
           </div>
-          <p>The Yarychkivska Lab is part of the Cold Spring Harbor Laboratory–Northwell Health research community, where basic discovery meets clinical research.</p>
-          <p>This environment gives us access to leading-edge technologies, a strong foundation in fundamental biology, and close connections to physicians and patient-derived material.</p>
-          <div class="links" style="gap:32px;margin-top:4px">
+          <p class="body-text">The Yarychkivska Lab is part of the Cold Spring Harbor Laboratory–Northwell Health research community, where basic discovery meets clinical research.</p>
+          <p class="body-text">This environment gives us access to leading-edge technologies, a strong foundation in fundamental biology, and close connections to physicians and patient-derived material.</p>
+          <div class="links" style="margin-top:4px">
             <a class="arrow-link external" href="https://www.cshl.edu/research/cshl-northwell-health-affiliation/#about" target="_blank" rel="noopener">About the affiliation</a>
             <a class="arrow-link external" href="https://www.northwell.edu/news/the-latest/cold-spring-harbor-laboratory-northwell-extend-strategic-affiliation" target="_blank" rel="noopener">Partnership news</a>
           </div>
@@ -134,10 +122,10 @@
       </div>
     </section>
 
-    <section class="inverse cta">
+    <section class="inverse on-dark cta">
       <div class="container">
         <div class="stack" style="gap:12px">
-          <div class="eyebrow on-dark">Join our laboratory</div>
+          <div class="eyebrow">Join our laboratory</div>
           <h2>We are hiring</h2>
         </div>
         <p>We are recruiting a postdoc and welcome graduate, undergraduate, and high school students.</p>
@@ -146,36 +134,8 @@
     </section>
   </main>
 
-  <div style="flex:1"></div>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-brand">
-        <strong>Yarychkivska Lab</strong>
-        <span class="dot">·</span>
-        <span>Laboratory of Cell Behavior</span>
-      </div>
-      <nav class="footer-nav">
-        <a href="index.html">Home</a>
-        <a href="research.html">Research</a>
-        <a href="publications.html">Publications</a>
-        <a href="people.html">People</a>
-        <a href="resources.html">Resources</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </footer>
-
+  <div data-site-footer></div>
 </div>
-<script>
-  (function () {
-    var btn = document.querySelector('.nav-toggle');
-    var nav = document.getElementById('site-nav');
-    btn.addEventListener('click', function () {
-      var open = nav.classList.toggle('open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  })();
-</script>
+<script src="js/site.js"></script>
 </body>
 </html>
