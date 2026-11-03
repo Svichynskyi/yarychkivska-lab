@@ -10,6 +10,9 @@
   /* Ink */
   --ink-900:#0e1a2b; --ink-700:#2c3a4a; --ink-500:#55606c; --ink-400:#7a838d;
   --line-200:#e5e3e0; --line-300:#d6d2cc;
+  /* Microscopy channel colors — bright on dark, darker on cream for legibility */
+  --channel-green:#3fe06a; --channel-magenta:#e03fd6;
+  --label-green:#1f9e45; --label-magenta:#c42bbb; --label-blue:#2b55d6;
 
   /* Semantic */
   --surface-page:var(--cream-100);
@@ -209,5 +212,7 @@ img,video{max-width:100%}
 .footer-brand strong{font-family:var(--font-display);font-weight:600;font-size:16px;color:var(--text-heading)}
 .footer-brand span{font-size:12px;color:var(--text-muted)}
 .footer-brand .dot{color:var(--ink-400)}
+.made-in{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--text-muted);white-space:nowrap}
+.made-in svg{display:block;width:16px;height:11px;border-radius:1px}
 .footer-nav{display:flex;gap:28px;flex-wrap:wrap}
 .footer-nav a{font-size:13px;color:var(--text-body)}

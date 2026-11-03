@@ -40,7 +40,8 @@
     footer.outerHTML =
       '<footer class="site-footer">' +
         '<div class="container">' +
-          '<div class="footer-brand"><strong>Yarychkivska Lab</strong><span class="dot">·</span><span>Laboratory of Cell Behavior</span></div>' +
+          '<div class="footer-brand"><strong>Yarychkivska Lab</strong><span class="dot">·</span><span>Laboratory of Cell Behavior</span><span class="dot">·</span>' +
+            '<span class="made-in">Made in UA <svg viewBox="0 0 16 11" role="img" aria-label="Ukrainian flag"><rect width="16" height="5.5" fill="#0057b7"/><rect y="5.5" width="16" height="5.5" fill="#ffd700"/></svg></span></div>' +
           '<nav class="footer-nav" aria-label="Footer">' + links() + '</nav>' +
         '</div>' +
       '</footer>';
